@@ -26,5 +26,12 @@ namespace BrightFieldsConsultancy.Controllers
 
             return View();
         }
+
+        public ActionResult PreviousClients()
+        {
+            ViewBag.Message = "Previous Clients";
+
+            return View();
+        }
     }
 }
